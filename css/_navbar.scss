@@ -1,0 +1,42 @@
+#navbar-background
+{
+    background-color: rgb(30, 30, 30) !important;
+
+    .navbar
+    {
+        background-color: rgb(30, 30, 30) !important;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    font: $fontLarge;
+    font-weight: 700;
+    font-size: $sizeSmall !important;
+
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+
+    .navbar-brand
+    {
+        transform: scale(1, 0.9);
+    }
+
+    .active .nav-link
+    {
+        text-decoration: underline;
+        text-decoration-color: $accentColour !important;
+        text-decoration-thickness: 0.15em;
+        text-underline-offset: 0.3em;
+    }
+
+    .button
+    {
+        position: absolute;
+        left: 50%;
+    }
+
+    z-index: 999;
+    position: relative;
+}

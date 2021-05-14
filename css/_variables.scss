@@ -1,0 +1,44 @@
+$backgroundColour: #000000;
+$accentColour: #c49954;
+$textColour: #ffffff;
+
+$fontHuge: 'Archivo Black', arial, sans-serif;
+$sizeHuge: 7em;
+
+$fontLarge: 'Archivo Black', arial, sans-serif;
+$sizeLarge: 3.0em;
+
+$fontMedium: 'Archivo Black', arial, sans-serif;
+$sizeMedium: 2em;
+
+$fontSmall: 'Archivo Black', arial, sans-serif;
+$sizeSmall: 1.2em;
+
+@mixin tiny-down
+{
+    @media (max-width: 350px) { @content; }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin sm-up
+{
+    @media (min-width: 576px) { @content; }
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin md-up
+{
+    @media (min-width: 768px) { @content; }
+}
+
+// Large devices (desktops, 992px and up)
+@mixin lg-up
+{
+    @media (min-width: 992px) { @content; }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@mixin xl-up
+{
+    @media (min-width: 1200px) { @content; }
+}

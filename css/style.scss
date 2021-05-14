@@ -1,0 +1,91 @@
+@import "_variables.scss";
+@import "_header.scss";
+@import "_mainContainer.scss";
+@import "_navbar.scss";
+@import "_imageBreaker.scss";
+@import "_footer.scss";
+@import "_tokenomics.scss";
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-color: $backgroundColour;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    line-height: 1.2;
+    font-weight: 700;
+    color: $textColour;
+    text-transform: uppercase;
+    transform: scale(1, 0.9);
+}
+
+h3
+{
+    font-weight: 400 !important;
+}
+
+p
+{
+    font-family: $fontSmall;
+    color: $textColour;
+    font-size: $sizeSmall;
+}
+
+h1
+{
+    line-height: 1.2;
+    font-size: $sizeLarge;
+    font-family: $fontLarge;
+
+    @include tiny-down { font-size: 4em; }
+}
+
+h2
+{
+    font-size: $sizeMedium;
+    @include tiny-down { font-size: 2.8em; }
+    font-family: $fontLarge;
+}
+
+.container-fluid
+{
+    padding-left: 0px;
+    //padding-right: 0px;
+}
+
+.navbar-toggler { border: none;}
+
+.btn-primary
+{
+    background-color: $accentColour;
+    border-color: $accentColour !important;
+
+    &:hover
+    {
+        background-color: lighten($accentColour, 5%) !important;
+    }
+
+    font-weight: 500;
+}
+
+.btn-outline-light
+{
+    &:hover
+    {
+        color: black !important;
+    }
+}
+
+.btn
+{
+    color: white !important;
+    border-radius: .4375rem;
+    padding: .875rem 1rem;
+    font-size: $sizeSmall !important;
+}

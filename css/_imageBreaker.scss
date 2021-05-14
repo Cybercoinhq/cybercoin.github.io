@@ -1,0 +1,33 @@
+#image-breaker
+{
+    background-image: url("../images/space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 100%;
+
+    img
+    {
+        width: 70%;
+        height: auto;
+        margin-bottom: -15%;
+    }
+
+    h3
+    {
+        text-transform: none !important;
+        margin-bottom: 0;
+        font-size: $sizeMedium;
+    }
+
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+
+    span
+    {
+        color: lightgrey;
+        font-size: $sizeSmall;
+    }
+    
+    padding-bottom: 5em;
+}
