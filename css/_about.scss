@@ -1,0 +1,23 @@
+#about
+{
+
+    h2
+    {
+        color: $accentColour;
+    }
+
+    hr
+    {
+        margin-top: 2em;
+        margin-bottom: 8em;
+        border: 0;
+        border-top: 1px solid rgb(122, 122, 122);
+    }
+
+    .card, .card-img-top
+    {
+        background: rgb(20, 20, 25);
+        border-radius: 25px;
+    }
+    
+}

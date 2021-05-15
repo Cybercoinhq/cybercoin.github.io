@@ -1,0 +1,41 @@
+#donations
+{
+
+    img
+    {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .btn
+    {
+        padding: 0;
+        height: 2em;
+    }
+
+    .container
+    {
+        margin-top: 5em;
+        background-color: rgb(20, 20, 25);
+        border-radius: 15px;
+        padding-top: 2em;
+        padding-bottom: 2em;
+
+        .progress
+        {
+            margin-top: 2em;
+            margin-bottom: 2em;
+            border-radius:100px;
+
+            .progress-bar
+            {
+                background-color: $accentColour;
+            }
+        }
+    }
+
+    h2
+    {
+        color: $accentColour;
+    }
+}

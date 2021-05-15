@@ -1,16 +1,11 @@
 #navbar-background
 {
-    background-color: rgb(30, 30, 30) !important;
+    background-color: rgb(0, 0, 0) !important;
 
     .navbar
     {
-        background-color: rgb(30, 30, 30) !important;
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 0;
-        margin-right: 0;
+        background-color: rgb(0, 0, 0) !important;
     }
-
     font: $fontLarge;
     font-weight: 700;
     font-size: $sizeSmall !important;
@@ -20,7 +15,9 @@
 
     .navbar-brand
     {
-        transform: scale(1, 0.9);
+        transform: scale(1 * 1.1, 0.9 * 1.1);
+        color: $accentColour;
+        font-family: "ethnocentric";
     }
 
     .active .nav-link
@@ -36,7 +33,4 @@
         position: absolute;
         left: 50%;
     }
-
-    z-index: 999;
-    position: relative;
 }

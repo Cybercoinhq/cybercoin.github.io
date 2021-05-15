@@ -5,6 +5,14 @@
 @import "_imageBreaker.scss";
 @import "_footer.scss";
 @import "_tokenomics.scss";
+@import "_donations.scss";
+@import "_about.scss";
+
+@font-face
+{
+    font-family: ethnocentric;
+    src: url("../ethnocentric.ttf");
+}
 
 html
 {
@@ -53,11 +61,6 @@ h2
     font-family: $fontLarge;
 }
 
-.container-fluid
-{
-    padding-left: 0px;
-    //padding-right: 0px;
-}
 
 .navbar-toggler { border: none;}
 
