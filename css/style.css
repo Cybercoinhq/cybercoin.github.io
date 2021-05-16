@@ -158,11 +158,6 @@
   border-radius: 15px;
 }
 
-#donations .btn {
-  padding: 0;
-  height: 2em;
-}
-
 #donations .container {
   margin-top: 5em;
   background-color: #141419;
@@ -191,14 +186,18 @@
 
 #about hr {
   margin-top: 2em;
-  margin-bottom: 8em;
+  margin-bottom: 7em;
   border: 0;
   border-top: 1px solid #7a7a7a;
 }
 
 #about .card, #about .card-img-top {
   background: #141419;
-  border-radius: 25px;
+  border-radius: 24px;
+}
+
+#about .card {
+  height: 30em;
 }
 
 @font-face {
