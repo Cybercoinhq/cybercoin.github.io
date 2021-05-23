@@ -15,7 +15,7 @@
   display: block;
   -webkit-transform: scale(1);
           transform: scale(1);
-  opacity: 1;
+  opacity: 0;
   -webkit-animation: appear 1.4s 1;
           animation: appear 1.4s 1;
   -webkit-animation-fill-mode: forwards;
@@ -90,8 +90,8 @@
 
 #navbar-background .active .nav-link {
   text-decoration: underline;
-  -webkit-text-decoration-color: #c49954 !important;
-          text-decoration-color: #c49954 !important;
+  -webkit-text-decoration-color: #181005 !important;
+          text-decoration-color: #181005 !important;
   text-decoration-thickness: 0.15em;
   text-underline-offset: 0.3em;
 }

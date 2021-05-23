@@ -11,7 +11,7 @@
       "value": "#ffffff"
     },
     "shape": {
-      "type": "triangle",
+      "type": "circle",
       "stroke": {
         "width": 3,
         "color": "#c49954"
@@ -68,7 +68,7 @@
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
+    "detect_on": "window",
     "events": {
       "onhover": {
         "enable": false,
@@ -96,7 +96,7 @@
       },
       "repulse": {
         "distance": 200,
-        "duration": 0.4
+        "duration": 30
       },
       "push": {
         "particles_nb": 4
