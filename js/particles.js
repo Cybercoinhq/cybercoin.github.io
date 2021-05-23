@@ -59,13 +59,13 @@ var pJS = function(tag_id, params){
         random: false,
         anim: {
           enable: false,
-          speed: 5,
+          speed: 20,
           size_min: 0,
           sync: false
         }
       },
       line_linked: {
-        enable: false,
+        enable: true,
         distance: 100,
         color: '#fff',
         opacity: 1,
@@ -96,7 +96,7 @@ var pJS = function(tag_id, params){
         },
         onclick: {
           enable: true,
-          mode: 'repulse'
+          mode: 'push'
         },
         resize: true
       },
@@ -113,7 +113,7 @@ var pJS = function(tag_id, params){
           duration: 0.4
         },
         repulse:{
-          distance: 10,
+          distance: 200,
           duration: 0.4
         },
         push:{
